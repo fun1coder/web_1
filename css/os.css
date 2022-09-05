@@ -1,0 +1,118 @@
+/* For devices with width smaller than 400px */
+
+body {
+    background-image: url("images/osback.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+/* For larger devices */
+
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url("images/osback.jpg"); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+}
+
+.heading
+{
+    height:fit-content;
+    width:50%;
+    margin:auto;
+    display: block;
+    color: rgb(9, 228, 6);
+}
+h1{
+    margin: auto;
+    font-size: larger;
+}
+p1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: large;
+    margin: auto;
+}
+.anc:link {
+  background-color: transparent;
+  text-decoration: none;
+}
+.anc:visited {
+  color:#e34be3;
+  background-color: transparent;
+  text-decoration: none;
+}
+.anc:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.anc:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.contain
+{
+    margin: auto;
+  display: block;
+  width: 50%;
+}
+.phonehead
+{
+    height:fit-content;
+    width:50%;
+    margin:auto;
+    display: block;
+    color: rgb(9, 228, 6);
+}
+h2{
+    margin: auto;
+    font-size: larger;
+}
+
+
+@media screen and (max-width: 600px)
+{
+    .heading{
+        float:left;
+        width: 100%;
+        display: block;
+
+    }
+    h1
+    {
+        font-size:medium;
+        font-style: italic;
+    }
+    p1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size:medium;
+}
+.contain
+{
+ float: left;
+  display: block;
+  width:100%;
+}
+.phonehead
+{
+        margin: auto;
+        width:100%;
+        display: block;
+}
+.h2
+{
+    font-size:medium;
+    font-style: italic;
+}
+
+
+}
