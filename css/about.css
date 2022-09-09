@@ -78,7 +78,7 @@ body {
 }
 
 .topnav .search-container button:hover {
-  background: green;
+  background: #ccc;
 }
 
 
@@ -161,7 +161,7 @@ width: 50%;
      
     }
     h1{
-      color:lavenderblush;
+      color:darkgreen;
       font-size: larger;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-style: oblique;
@@ -226,7 +226,7 @@ width: 50%;
        
       }
       h1{
-        color:lavenderblush;
+        color: darkgreen;
         font-size: larger;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-style: oblique;
@@ -235,7 +235,7 @@ width: 50%;
       p1
       {
         float:left;
-        color: darkred;
+        color: red;
         font-size: medium;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: italic;
