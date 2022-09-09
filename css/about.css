@@ -30,7 +30,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: blue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -170,7 +170,7 @@ width: 50%;
     p1
     {
       float:left;
-      color: darkred;
+      color: red;
       font-size: medium;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-style: italic;
