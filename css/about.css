@@ -186,10 +186,11 @@ width: 50%;
     }
    
     .parent {
-      margin:auto;
+/*       margin:auto; */
       width:50%;
       height:auto;
       text-align: center;
+     float:left;
       
       /* background-color: aqua; */
     }
