@@ -184,6 +184,14 @@ width: 50%;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-style: italic;
     }
+    p3
+{
+  color: red;
+    font-size: medium;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+ text-align:center;
+}
    
     .parent {
       margin:auto;
@@ -234,6 +242,14 @@ width: 50%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-style: italic;
       }
+      p3
+{
+  color: red;
+    font-size: medium;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+ text-align:center;
+}
 
      
     .parent {
