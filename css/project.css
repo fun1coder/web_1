@@ -1,7 +1,7 @@
 /* For devices with width smaller than 400px */
 
 body {
-    background-image: url("images/projectback.jpg"); 
+    /*background-image: url("images/projectback.jpg"); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -13,7 +13,7 @@ body {
 
 @media only screen and (min-device-width: 400px) {
     body { 
-        background-image: url("images/projectback.jpg"); 
+        /*background-image: url("images/projectback.jpg"); */
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: 100% 100%;
