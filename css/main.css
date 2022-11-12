@@ -149,6 +149,8 @@ body {
  p1,p2,p3
  {
     color: rgb(55, 255, 0);
+     font-size:medium;
+  font-family: 'Courier New', Courier, monospace;
  }
  .responsive {
 
@@ -178,11 +180,15 @@ body {
   }
   mp1
   {
-    color:rgb(255, 0, 204)
+    color:rgb(255, 0, 204);
+       font-size:small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   mp2
   {
     color: #0333f5e9;
+       font-size:small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
     
   
