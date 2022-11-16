@@ -172,7 +172,69 @@
   
 <!--   c programming tutorial -1 -->
 <!--   remove duplicates in array -->
- 
+ <div id="list">
+   <p>
+     //program to find missing element in an array
+
+#include<stdio.h>
+int main()
+{
+	int numarr[]={1,2,3,4,5,6,7,8,10};
+	int i,sum=0,tot,ans,n;
+	int x=sizeof(numarr)/sizeof(int);
+	for(i=0;i<x;i++)
+	{
+		sum=sum+numarr[i];
+	}
+n=x+1;
+	tot=n*(n+1)/2;
+	ans=tot-sum;
+	printf("%d",ans);
+	
+}
+
+//program to remove duplicates present in an array in c
+
+#include<stdio.h>
+int main()
+{
+	int duparr[]={1,2,3,55,66,77,55,66,2,6,7,1,5,7,8,7,1,11,11,1};
+	int temparr[100];
+	  int len=sizeof(duparr)/sizeof(int);
+	  int templen=len;
+	  int i,j,k,t=0,m,numpos,l;
+	    for(i=0;i<len-1;i++)
+	    {
+	      for(j=i+1;j<len;j++)
+	      {
+	      	if(duparr[i]==duparr[j])
+	      	{
+	      		numpos = j;
+	      		t=0;
+	      		for(k=numpos+1;k<templen;k++)
+	      		{
+	      			temparr[t]=duparr[k];
+	      			t++;
+									}
+									m=0;
+									for(l=numpos;l<len-1;l++)
+									{
+										duparr[l]=temparr[m];
+										m++;
+									}
+									len=len-1;
+									
+								}
+							}
+					}
+					for(int v=0;v<len;v++)//line to print the duplicates removed array
+					{
+						printf("%d ",duparr[v]);
+					}
+	
+}
+   </p>
+  </div>
 <!--   remove duplicates in array -->
 
 
