@@ -1,6 +1,6 @@
 /* For devices with width smaller than 400px */
 body {
- /* background-image: url("images/abtback.jpg"); */
+ background-image: url("images/abtbackp.jpg");
   background-color:white;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,7 +11,7 @@ body {
 /* For larger devices */
 @media only screen and (min-device-width: 400px) {
   body { 
-      /*background-image: url("images/abtback.jpg"); */
+      background-image: url("images/abtbackp.jpg"); 
       background-color:white;
       background-repeat: no-repeat;
       background-attachment: fixed;
