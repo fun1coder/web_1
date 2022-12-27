@@ -37,7 +37,7 @@ body {
   
   /* Add an active class to highlight the current page */
   .active {
-    color:#483feb;
+    color:green;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
